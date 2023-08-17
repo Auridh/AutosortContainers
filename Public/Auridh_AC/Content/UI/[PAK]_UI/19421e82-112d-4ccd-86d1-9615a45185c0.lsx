@@ -9,7 +9,7 @@
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="AutosortContainers_Icons" />
 					<attribute id="SRGB" type="bool" value="True" />
-					<attribute id="SourceFile" type="LSString" value="Public/AutosortContainers/Assets/Textures/Icons/AutosortContainers_Icons.dds" />
+					<attribute id="SourceFile" type="LSString" value="Public/Auridh_AC/Assets/Textures/Icons/AutosortContainers_Icons.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Icons_Items" />
 					<attribute id="Type" type="int64" value="0" />
