@@ -1,0 +1,51 @@
+new treasuretable "DEN_Entrance_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
+
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_AC_OBJ_Quiver",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_AC_OBJ_ScrollCase",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_AC_OBJ_GrenadeBox",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_AC_OBJ_PotionPouch",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Chest_LetterBox",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_AC_OBJ_CoatingVials",1,0,0,0,0,0,0,0
+
+
+new treasuretable "AC_ItemsBag_TT"
+CanMerge 1
+new subtable "1,1"
+object category "I_AC_OBJ_Quiver",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_AC_OBJ_ScrollCase",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_AC_OBJ_GrenadeBox",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_AC_OBJ_PotionPouch",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Chest_LetterBox",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_AC_OBJ_CoatingVials",1,0,0,0,0,0,0,0
+
+
+new treasuretable "AC_Quiver_TT"
+CanMerge 1
+
+new treasuretable "AC_ScrollCase_TT"
+CanMerge 1
+
+new treasuretable "AC_PotionPouch_TT"
+CanMerge 1
+
+new treasuretable "AC_GrenadeBox_TT"
+CanMerge 1
+
+new treasuretable "AC_CoatingVials_TT"
+CanMerge 1
