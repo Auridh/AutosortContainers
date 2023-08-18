@@ -39,6 +39,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Bard"
 add initialweaponset "Melee"
@@ -74,6 +78,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Cleric"
 add initialweaponset "Melee"
@@ -111,6 +119,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Druid"
 add initialweaponset "Melee"
@@ -144,6 +156,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Fighter"
 add initialweaponset "Melee"
@@ -179,6 +195,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Paladin"
 add initialweaponset "Melee"
@@ -220,6 +240,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Paladin_Ancients"
 add initialweaponset "Melee"
@@ -261,6 +285,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Paladin_Devotion"
 add initialweaponset "Melee"
@@ -302,6 +330,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Ranger"
 add initialweaponset "Ranged"
@@ -339,6 +371,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Rogue"
 add initialweaponset "Ranged"
@@ -380,6 +416,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Sorcerer"
 add initialweaponset "Melee"
@@ -413,6 +453,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Sorcerer_DraconicAncestry"
 add initialweaponset "Melee"
@@ -446,6 +490,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Sorcerer_StormSorcery"
 add initialweaponset "Melee"
@@ -479,6 +527,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Warlock"
 add initialweaponset "Melee"
@@ -512,6 +564,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Wizard"
 add initialweaponset "Melee"
@@ -545,6 +601,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Monk"
 add initialweaponset "Melee"
@@ -578,6 +638,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_CC_Paladin_Vengance"
 add initialweaponset "Melee"
@@ -619,6 +683,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_Jaheira"
 add initialweaponset "Melee"
@@ -650,6 +718,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQP_Minsc"
 add initialweaponset "Melee"
@@ -685,6 +757,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQ_Laezel"
 add initialweaponset "Melee"
@@ -724,6 +800,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQ_Wyll"
 add initialweaponset "Melee"
@@ -761,6 +841,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQ_Shadowheart"
 add initialweaponset "Melee"
@@ -802,6 +886,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQ_Astarion"
 add initialweaponset "Melee"
@@ -847,6 +935,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQ_Gale"
 add initialweaponset "Melee"
@@ -884,6 +976,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQ_Karlach"
 add initialweaponset "Melee"
@@ -923,6 +1019,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "EQ_Halsin"
 add initialweaponset "Melee"
@@ -956,6 +1056,10 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"
 
 new equipment "GOB_DrowCommander"
 add equipmentgroup
@@ -984,3 +1088,7 @@ add equipmentgroup
 add equipment entry "AC_OBJ_PotionPouch"
 add equipmentgroup
 add equipment entry "AC_OBJ_GrenadeBox"
+add equipmentgroup
+add equipment entry "AC_OBJ_CoatingVials"
+add equipmentgroup
+add equipment entry "OBJ_Chest_LetterBox"

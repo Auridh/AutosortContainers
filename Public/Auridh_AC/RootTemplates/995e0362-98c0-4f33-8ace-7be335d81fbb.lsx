@@ -25,7 +25,7 @@
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
-					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('SCROLL') and not Tagged('BOOK')" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('SCROLL')" />
 					<children>
 						<node id="GameMaster" />
 						<node id="InventoryList">
