@@ -6,7 +6,8 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="DisplayName" type="TranslatedString" handle="hda39471eg7896g48b7ga531gbc5f2271c798" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="hf9fad078g4407g4456ga2e0g43d04179498f" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hc994caa3gd163g468bg81b6g5ff50b7bee42" version="1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hf9fad078g4407g4456ga2e0g43d04179498f" version="1" />
 					<attribute id="Icon" type="FixedString" value="AC_Icon_Quiver" />
 					<attribute id="InventoryType" type="uint8" value="11" />
 					<attribute id="IsInspector" type="bool" value="False" />

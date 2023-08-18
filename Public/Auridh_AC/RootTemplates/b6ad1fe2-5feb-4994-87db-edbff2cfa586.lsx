@@ -6,7 +6,8 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="DisplayName" type="TranslatedString" handle="h7c33d2c5g50a7g486cg9f65gc92dd51e01ab" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="hec42cec7g475dg4a12g92cbg793218ea5123" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h08721676g3e3bg40a9g8887g79cd6ed61103" version="1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hec42cec7g475dg4a12g92cbg793218ea5123" version="1" />
 					<attribute id="Icon" type="FixedString" value="AC_Icon_PotionPouch" />
 					<attribute id="InventoryType" type="uint8" value="11" />
 					<attribute id="IsInspector" type="bool" value="False" />

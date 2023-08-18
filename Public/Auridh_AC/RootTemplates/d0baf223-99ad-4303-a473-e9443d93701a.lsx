@@ -6,7 +6,8 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="DisplayName" type="TranslatedString" handle="hded932e3g534bg4b2ega375gd289e8c0f150" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="h3b89156fg1df9g4e6dga2a4gd174033c451b" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hdae698e2ga1dag41bdgbb85gc1ae49c36988" version="1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h3b89156fg1df9g4e6dga2a4gd174033c451b" version="1" />
 					<attribute id="Icon" type="FixedString" value="AC_Icon_GrenadeBox" />
 					<attribute id="InventoryType" type="uint8" value="11" />
 					<attribute id="IsInspector" type="bool" value="False" />
