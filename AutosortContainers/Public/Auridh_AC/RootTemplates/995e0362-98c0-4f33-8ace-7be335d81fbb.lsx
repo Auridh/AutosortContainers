@@ -26,7 +26,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
-					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('SCROLL')" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('SCROLL') or Tagged('AC_SCROLL')" />
 					<children>
 						<node id="GameMaster" />
 						<node id="InventoryList">

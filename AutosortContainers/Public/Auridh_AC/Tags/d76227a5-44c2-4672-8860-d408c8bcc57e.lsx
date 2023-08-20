@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h349b901eg3fceg413fg9f49g93914c5de462" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="AC_COATING" />
+			<attribute id="UUID" type="guid" value="d76227a5-44c2-4672-8860-d408c8bcc57e" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

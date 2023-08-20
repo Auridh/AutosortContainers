@@ -26,7 +26,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
-					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('ALCH_SOLUTION_COATING')" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('ALCH_SOLUTION_COATING') or Tagged('AC_COATING')" />
 					<children>
 						<node id="GameMaster" />
 						<node id="InventoryList">

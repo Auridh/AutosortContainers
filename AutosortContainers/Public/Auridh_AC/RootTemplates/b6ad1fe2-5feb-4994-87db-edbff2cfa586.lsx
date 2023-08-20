@@ -26,7 +26,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
-					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('POTION') or Tagged('ALCH_SOLUTION_POTION')" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('POTION') or Tagged('ALCH_SOLUTION_POTION') or Tagged('AC_POTION')" />
 					<children>
 						<node id="GameMaster" />
 						<node id="InventoryList">

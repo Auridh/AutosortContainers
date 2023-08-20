@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h720e20e2g9395g47d1g8970gc93efe112f8a" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="AC_BOOK" />
+			<attribute id="UUID" type="guid" value="50b754ef-e0d3-4810-bb07-4dedffe36626" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

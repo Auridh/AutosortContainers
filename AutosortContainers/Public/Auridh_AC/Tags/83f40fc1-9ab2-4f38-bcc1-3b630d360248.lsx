@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h354d66e0g185eg4a38g805aga9caa11f17f6" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="AC_POTION" />
+			<attribute id="UUID" type="guid" value="83f40fc1-9ab2-4f38-bcc1-3b630d360248" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

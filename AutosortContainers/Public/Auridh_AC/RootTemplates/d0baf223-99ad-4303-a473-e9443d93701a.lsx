@@ -26,7 +26,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
-					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('GRENADE') or Tagged('ALCH_SOLUTION_GRENADE') or Tagged('EXPLOSIVES')" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('GRENADE') or Tagged('ALCH_SOLUTION_GRENADE') or Tagged('EXPLOSIVES') or Tagged('AC_EXPLOSIVES')" />
 					<children>
 						<node id="GameMaster" />
 						<node id="InventoryList">
