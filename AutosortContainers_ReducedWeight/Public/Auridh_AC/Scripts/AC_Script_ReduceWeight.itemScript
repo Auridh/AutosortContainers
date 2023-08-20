@@ -1,0 +1,12 @@
+INIT
+ITEM:__Me
+
+EVENTS
+
+EVENT AcTestEventTwo
+VARS
+	CHARACTER:_Character
+ON
+	OnPickupItem(_Character,__Me)
+ACTIONS
+	CharacterApplyStatus(_Character,WET,INT:3,0,__Me)
