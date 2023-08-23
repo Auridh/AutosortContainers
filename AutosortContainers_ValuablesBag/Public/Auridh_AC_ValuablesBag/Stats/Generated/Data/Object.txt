@@ -1,0 +1,6 @@
+new entry "AC_OBJ_ValuablesBag"
+type "Object"
+using "AC_OBJ_ContainerIndestructible"
+data "RootTemplate" "46ef590b-03b7-44c6-984b-dc02e9ca93d8"
+data "ValueOverride" "1"
+data "Weight" "0.01"
