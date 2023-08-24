@@ -5,9 +5,9 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects">
-					<attribute id="DisplayName" type="TranslatedString" handle="hcdad16c7g7ee2g4553g98e7g1eb889084d0c" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="h16eb3747gc973g4f09ga6c0ge38cfec1adf3" version="1" />
-					<attribute id="TechnicalDescription" type="TranslatedString" handle="heea96ad2gd770g4071g9741ga34b5fce5dd6" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0067bf99gb1e5g4fc1ga5aegeef5b3612f77" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h5bdd813agb3c0g4243gbb91g16f41141a461" version="1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h3e2e6bd2g7f5dg4787g8cacg66f593a3de40" version="1" />
 					<attribute id="Icon" type="FixedString" value="AC_Icon_CoatingVials_AM" />
 					<attribute id="InventoryType" type="uint8" value="11" />
 					<attribute id="IsInspector" type="bool" value="False" />

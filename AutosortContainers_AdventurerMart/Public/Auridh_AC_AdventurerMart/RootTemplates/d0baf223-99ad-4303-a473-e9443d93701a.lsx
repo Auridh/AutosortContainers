@@ -5,9 +5,9 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects">
-					<attribute id="DisplayName" type="TranslatedString" handle="hded932e3g534bg4b2ega375gd289e8c0f150" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="hdae698e2ga1dag41bdgbb85gc1ae49c36988" version="1" />
-					<attribute id="TechnicalDescription" type="TranslatedString" handle="h3b89156fg1df9g4e6dga2a4gd174033c451b" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1540d695g11ebg4559g9e0fgade87028db6c" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hd99510fdgf5ffg4a38ga166gc325a0a08d55" version="1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hf5a0d81bg4908g4dadgbe27g22ecc392a62e" version="1" />
 					<attribute id="Icon" type="FixedString" value="AC_Icon_GrenadeBox_AM" />
 					<attribute id="InventoryType" type="uint8" value="11" />
 					<attribute id="IsInspector" type="bool" value="False" />
