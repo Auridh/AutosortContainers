@@ -25,7 +25,7 @@ You can choose one of the following methods to get the new containers:
 3. Use the [Tutorial Chest Summoning](https://www.nexusmods.com/baldursgate3/mods/457) mod to get a chest with all the items
 
 ## Installation
-* [Main mod](/Installation/main.md)
-* [Main mod](/Installation/simpletexts.md)
-* [Main mod](/Installation/simpleicons.md)
-* [Main mod](/Installation/adventurermart.md)
+* [Main Mod](/Installation/main.md)
+* [Simple Texts](/Installation/simpletexts.md)
+* [Simple Icons](/Installation/simpleicons.md)
+* [Adventurer Mart Edition](/Installation/adventurermart.md)
