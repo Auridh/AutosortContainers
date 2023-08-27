@@ -29,3 +29,4 @@ You can choose one of the following methods to get the new containers:
 * [Simple Texts](/Installation/simpletexts.md)
 * [Simple Icons](/Installation/simpleicons.md)
 * [Adventurer Mart Edition](/Installation/adventurermart.md)
+* [Reduced Weight](/Installation/reducedweight.md)
