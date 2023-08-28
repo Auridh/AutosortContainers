@@ -39,14 +39,14 @@ end
 
 -- Osiris event listeners
 Ext.Osiris.RegisterListener(Osi_Evt_RemovedFrom, 2, 'before', function(entity, container)
-	local itemName = Osi.GetStatString(char)
+	local itemName = Osi.GetStatString(container)
 	if Osi.HasActiveStatus(entity, Status_ReduceWeight) == 1 and ArrayContains(itemNames, itemName) then
 		Osi.RemoveStatus(entity, Status_ReduceWeight, container)
 	end
 end)
 
 Ext.Osiris.RegisterListener(Osi_Evt_AddedTo, 3, 'before', function(entity, container, type)
-	local itemName = Osi.GetStatString(char)
+	local itemName = Osi.GetStatString(container)
 	if Osi.HasActiveStatus(entity, Status_ReduceWeight) ~= 1 and ArrayContains(itemNames, itemName) then
 		Osi.ApplyStatus(entity, Status_ReduceWeight, -1, 1, container)
 	end
