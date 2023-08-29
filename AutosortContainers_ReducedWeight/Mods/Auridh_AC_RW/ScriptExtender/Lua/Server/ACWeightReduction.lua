@@ -23,6 +23,7 @@ local itemNames = {
 
 -- Status names
 local Status_ReduceWeight = 'AC_REDUCE_WEIGHT_MAIN'
+local Status_WeightDisplayFix = 'AC_REDUCE_WEIGHT_FIX'
 
 -- Osiris Events
 local Osi_Evt_AddedTo = 'AddedTo'
@@ -42,6 +43,7 @@ Ext.Osiris.RegisterListener(Osi_Evt_RemovedFrom, 2, 'before', function(entity, c
 	local itemName = Osi.GetStatString(container)
 	if Osi.HasActiveStatus(entity, Status_ReduceWeight) == 1 and ArrayContains(itemNames, itemName) then
 		Osi.RemoveStatus(entity, Status_ReduceWeight, container)
+		Osi.ApplyStatus(Osi.GetOwner(container), Status_WeightDisplayFix, 0, 1, container)
 	end
 end)
 
@@ -49,5 +51,6 @@ Ext.Osiris.RegisterListener(Osi_Evt_AddedTo, 3, 'before', function(entity, conta
 	local itemName = Osi.GetStatString(container)
 	if Osi.HasActiveStatus(entity, Status_ReduceWeight) ~= 1 and ArrayContains(itemNames, itemName) then
 		Osi.ApplyStatus(entity, Status_ReduceWeight, -1, 1, container)
+		Osi.ApplyStatus(Osi.GetOwner(container), Status_WeightDisplayFix, 0, 1, container)
 	end
 end)
