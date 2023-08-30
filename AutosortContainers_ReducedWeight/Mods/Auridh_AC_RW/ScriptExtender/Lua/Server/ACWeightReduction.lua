@@ -1,13 +1,13 @@
 -- Item uuids
-local Name_BagKeys = 'OBJ_Keychain'
-local Name_BagAlchemy = 'OBJ_Bag_AlchemyPouch'
-local Name_BagSupplies = 'OBJ_Backpack_CampSupplies'
+local Name_BagKeys = 'CONT_GEN_Keychain'
+local Name_BagAlchemy = 'CONT_GEN_AlchemyPouch'
+local Name_BagSupplies = 'CONT_GEN_CampSupplySack'
 local Name_BagPotions = 'AC_OBJ_PotionPouch'
 local Name_BagArrows = 'AC_OBJ_Quiver'
 local Name_BagCoatings = 'AC_OBJ_CoatingVials'
 local Name_BagGrenades = 'AC_OBJ_GrenadeBox'
 local Name_BagScrolls = 'AC_OBJ_ScrollCase'
-local Name_BagBooks = 'OBJ_Chest_LetterBox'
+local Name_BagBooks = 'CONT_GEN_LetterBox'
 
 local itemNames = {
 	Name_BagKeys,
@@ -40,7 +40,7 @@ end
 
 -- Osiris event listeners
 Ext.Osiris.RegisterListener(Osi_Evt_RemovedFrom, 2, 'before', function(entity, container)
-	local itemName = Osi.GetStatString(container)
+	local itemName = string.sub(container, 1, -37)
 	if Osi.HasActiveStatus(entity, Status_ReduceWeight) == 1 and ArrayContains(itemNames, itemName) then
 		Osi.RemoveStatus(entity, Status_ReduceWeight, container)
 		Osi.ApplyStatus(Osi.GetOwner(container), Status_WeightDisplayFix, 0, 1, container)
@@ -48,7 +48,7 @@ Ext.Osiris.RegisterListener(Osi_Evt_RemovedFrom, 2, 'before', function(entity, c
 end)
 
 Ext.Osiris.RegisterListener(Osi_Evt_AddedTo, 3, 'before', function(entity, container, type)
-	local itemName = Osi.GetStatString(container)
+	local itemName = string.sub(container, 1, -37)
 	if Osi.HasActiveStatus(entity, Status_ReduceWeight) ~= 1 and ArrayContains(itemNames, itemName) then
 		Osi.ApplyStatus(entity, Status_ReduceWeight, -1, 1, container)
 		Osi.ApplyStatus(Osi.GetOwner(container), Status_WeightDisplayFix, 0, 1, container)
