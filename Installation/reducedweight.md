@@ -2,6 +2,8 @@
 To install, follow the same steps as for the [main mod](main.md).<br><br>
 <span style="color:#ed3a12">All Addons should be loaded <strong>AFTER</strong> the main mod!<span>
 
+If you install the add-on mid-game while already using the main mod, you will have to take all the items out of their containers and put them back in.
+
 The [Script Extender](https://github.com/Norbyte/bg3se/releases) by Norbyte is **required** for this addon to function!
 You install it by dropping it into the bin folder in your game directory.
 If you're using the BG3ModManager, you can go to "Tools" -> "Download & Extract Script Extender" and have the manager install it for you.
