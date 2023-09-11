@@ -1,11 +1,11 @@
 new treasuretable "DEN_Entrance_Trade"
 CanMerge 1
-new subtable "4,1"
+new subtable "1,1"
 object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
 
 new treasuretable "GOB_Festivities_Trader"
 CanMerge 1
-new subtable "4,1"
+new subtable "1,1"
 object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
 
 new treasuretable "MOO_InfernalTrader_Trade"
