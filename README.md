@@ -19,9 +19,9 @@ Adds additional containers to the game - for arrows, scrolls, potions, weapon co
 You can choose one of the following methods to get the new containers:
 1. If you start a new game, the items get automatically added to your inventory
 2. Buy from one of the following traders (_you may need to take a long rest to allow the traders inventory to refresh_)
-   * Arron at the druid grove
-   * Volo (not while he is in the goblin camp)
-   * Danthelon in Act 3
+   * Arron in the druid grove and Grat in the goblin camp
+   * Questmaster Talli in Last Light Inn and Araj Oblodra in Moonrise
+   * Danthelon and Glynda Oltower in Wyrm's Crossing in Act 3
 3. Use the [Tutorial Chest Summoning](https://www.nexusmods.com/baldursgate3/mods/457) mod to get a chest with all the items
 
 ## Installation

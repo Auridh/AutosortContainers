@@ -1,14 +1,19 @@
 new treasuretable "DEN_Entrance_Trade"
 CanMerge 1
-new subtable "1,1"
+new subtable "4,1"
 object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
 
-new treasuretable "DEN_Volo_Trade"
+new treasuretable "GOB_Festivities_Trader"
+CanMerge 1
+new subtable "4,1"
+object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_InfernalTrader_Trade"
 CanMerge 1
 new subtable "1,1"
 object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
 
-new treasuretable "DEN_Volo_Adventure"
+new treasuretable "HAV_HarperQuarterMaster"
 CanMerge 1
 new subtable "1,1"
 object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
@@ -18,20 +23,15 @@ CanMerge 1
 new subtable "1,1"
 object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
 
+new treasuretable "WYR_Bridge_Trader_Tools"
+CanMerge 1
+new subtable "1,1"
+object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
+
 new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
-object category "I_AC_OBJ_Quiver",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_AC_OBJ_ScrollCase",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_AC_OBJ_GrenadeBox",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_AC_OBJ_PotionPouch",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_OBJ_Chest_LetterBox",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_AC_OBJ_CoatingVials",1,0,0,0,0,0,0,0
+object category "I_AC_OBJ_ItemsBag",1,0,0,0,0,0,0,0
 
 
 new treasuretable "AC_ItemsBag_TT"
