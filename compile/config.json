@@ -1,0 +1,61 @@
+{
+  "main": {
+    "path": "mod",
+    "pakName": "AutosortContainers",
+    "handle": "Auridh_AC",
+    "versions": {
+      "main": {
+        "branch": "main"
+      },
+      "nsi": {
+        "branch": "noStoryItems"
+      }
+    }
+  },
+  "am": {
+    "path": "addons/AutosortContainers_AdventurerMart",
+    "pakName": "AutosortContainers_AdventurerMart",
+    "handle": "Auridh_AC_AdventurerMart",
+    "versions": {
+      "main": {
+        "branch": "main"
+      },
+      "nsi": {
+        "branch": "noStoryItems"
+      }
+    }
+  },
+  "rw": {
+    "path": "addons/AutosortContainers_ReducedWeight",
+    "pakName": "AutosortContainers_ReducedWeight",
+    "handle": "Auridh_AC_RW",
+    "versions": {
+      "main": {
+        "branch": "main"
+      }
+    }
+  },
+  "si": {
+    "path": "addons/AutosortContainers_SimpleIcons",
+    "pakName": "AutosortContainers_SimpleIcons",
+    "handle": "Auridh_AC_SI",
+    "versions": {
+      "main": {
+        "branch": "main"
+      },
+      "nsi": {
+        "branch": "noStoryItems"
+      }
+    }
+  },
+  "st": {
+    "path": "addons/AutosortContainers_SimpleTexts",
+    "pakName": "AutosortContainers_SimpleTexts",
+    "handle": "Auridh_AC_ST",
+    "versions": {
+      "main": {
+        "branch": "main"
+      }
+    }
+  }
+}
