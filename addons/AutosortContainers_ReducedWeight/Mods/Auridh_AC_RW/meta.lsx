@@ -4,7 +4,17 @@
     <region id="Config">
         <node id="root">
             <children>
-                <node id="Dependencies"/>
+                <node id="Dependencies">
+                    <children>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="Auridh_AC" />
+                            <attribute id="MD5" type="LSString" value="" />
+                            <attribute id="Name" type="FixedString" value="Autosort Containers" />
+                            <attribute id="UUID" type="FixedString" value="c143b33a-7039-4cfd-b0d1-4f4a3bb0667f" />
+                            <attribute id="Version" type="int64" value="36028797018963968" />
+                        </node>
+                    </children>
+                </node>
                 <node id="ModuleInfo">
                     <attribute id="Author" type="LSString" value="Auridh"/> 
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
@@ -22,7 +32,7 @@
                     <attribute id="Tags" type="LSString" value=""/>
                     <attribute id="Type" type="FixedString" value="Add-on"/>
                     <attribute id="UUID" type="FixedString" value="59333472-ed8a-4ae5-a8ec-1a5b03806e6f"/>
-                    <attribute id="Version" type="int64" value="36028799166447616"/>
+                    <attribute id="Version" type="int64" value="36028799166447629"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version" type="int64" value="36028797018963968"/>

@@ -21,7 +21,7 @@ function CompileMod {
     # loop localization files
     if (Test-Path -Path "$AbsPath/Localization/")
     {
-        $locaFiles = Get-ChildItem "$AbsPath/Localization/" -Filter *.loca -File -Recurse
+        $locaFiles = Get-ChildItem "$AbsPath/Localization/" -Filter *.xml -File -Recurse
         foreach ($f in $locaFiles) {
             divine -a convert-loca -g bg3 -s $f.FullName -d "$(join-path $f.DirectoryName $f.BaseName).loca"
         }
