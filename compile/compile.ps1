@@ -43,11 +43,20 @@ function CompileMod {
 $workingDir = Resolve-Path -Path "./"
 $config = Get-Content "$workingDir/compile/config.json" -Raw -Encoding "UTF8" | ConvertFrom-Json -AsHashtable
 
-if ($m -eq "all") {
-    $mods = $config.keys
-} else {
-    $mods = $m -split ";"
+if ($m -like "all*") {
+    $mv = $m.Length -gt 3 ? $m.Substring(4) : ""
+    $m = $mv -eq "" ? $config.keys[0] : $config.keys[0] + ":" + $mv
+    for ($i = 1; $i -lt $config.count; $i++) {
+        $m = $m + ";" + $config.keys[$i]
+        if ($mv -ne "" -and $config[$config.keys[$i]].versions[$mv] -ne $null)
+        {
+            $m = $m + ":" + $mv
+        }
+    }
+    $m
 }
+
+$mods = $m -split ";"
 
 foreach ($mod in $mods) {
     $modInfo = $mod -split ":"
@@ -56,7 +65,7 @@ foreach ($mod in $mods) {
 
     $modConfig = $config[$modKey]
     $branch = $modVersion -ne $null ? $modConfig.versions[$modVersion].branch : $modConfig.versions.main.branch
-    $output = "$workingDir/compile/files/$($modConfig.pakName)"
+    $output = "$workingDir/compile/files/$($modConfig.pakName)$($modVersion -eq $null ? '' : '_' + $modVersion)"
 
     CompileMod -AbsPath "$workingDir/$($modConfig.path)" -Handle $modConfig.handle -Output $output -Branch $branch
 }
