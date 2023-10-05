@@ -10,7 +10,7 @@
                 </node>
                 <node id="TextureAtlasPath">
                     <attribute id="Path" type="LSString" value="Assets/Textures/Icons/AutosortContainers_Icons.dds"/>
-                    <attribute id="UUID" type="FixedString" value="19421e82-112d-4ccd-86d1-9615a45185c0"/>
+                    <attribute id="UUID" type="FixedString" value="5f204146-f764-422f-bbdf-e38abba8bca9"/>
                 </node>
                 <node id="TextureAtlasTextureSize">
                     <attribute id="Height" type="int64" value="2048"/>
