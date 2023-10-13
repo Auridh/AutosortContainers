@@ -623,7 +623,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="093386f0-5a37-4b13-83c9-28ce965158b2" />
-					<attribute id="Name" type="LSString" value="CONT_GEN_LetterBox" />
+					<attribute id="Name" type="LSString" value="UNI_CONT_GEN_LetterBox" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="9f61d4c0-92f0-48f5-97bc-e4b8a5482a03" />
