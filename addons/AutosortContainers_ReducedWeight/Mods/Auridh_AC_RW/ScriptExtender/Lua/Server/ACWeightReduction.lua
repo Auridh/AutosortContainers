@@ -7,7 +7,8 @@ local Name_BagArrows = 'AC_OBJ_Quiver'
 local Name_BagCoatings = 'AC_OBJ_CoatingVials'
 local Name_BagGrenades = 'AC_OBJ_GrenadeBox'
 local Name_BagScrolls = 'AC_OBJ_ScrollCase'
-local Name_BagBooks = 'CONT_GEN_LetterBox'
+local Name_BagBooksOld = 'CONT_GEN_LetterBox'
+local Name_BagBooks = 'UNI_CONT_GEN_LetterBox'
 
 local itemNames = {
 	Name_BagKeys,
@@ -18,7 +19,8 @@ local itemNames = {
 	Name_BagCoatings,
 	Name_BagGrenades,
 	Name_BagScrolls,
-	Name_BagBooks
+	Name_BagBooks,
+	Name_BagBooksOld,
 }
 
 -- Status names
